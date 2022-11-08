@@ -16,10 +16,12 @@ gantt
     Tecnologias         :b2, after b1  ,7d
 
     section Documentação
-    Referencial         :c1, after b2, 28d
+    Teoria         :c1, after b2, 14d
+    Desenvolvimento      :c2, after c1, 14d
+    Conclusão       :c3, after c2, 14d
 
     section Execução
-    Protótipo           :d1, after c1, 14d
+    Protótipo           :d1, after c2, 14d
     Testes              :d2, after d1, 7d
 
     section Defesa
