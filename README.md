@@ -12,7 +12,7 @@ gantt
     Definição           :done, a2, after a1, 7
 
     section Requisitos
-    Problemas           :b1, after a2  , 7d
+    Problemas           :active, b1, after a2  , 7d
     Tecnologias         :active, b2, after b1  ,7d
 
     section Documentação
