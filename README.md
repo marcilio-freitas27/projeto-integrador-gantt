@@ -8,12 +8,12 @@ gantt
     dateFormat  YYYY-MM-DD
 
     section Planejamento
-    Tema                :a1, 2022-10-24, 7d
-    Definição           :a2, after a1, 7d
+    Tema                :done, a1, 2022-10-24, 7d
+    Definição           :done, a2, after a1, 7
 
     section Requisitos
     Problemas           :b1, after a2  , 7d
-    Tecnologias         :b2, after b1  ,7d
+    Tecnologias         :active, b2, after b1  ,7d
 
     section Documentação
     Teoria         :c1, after b2, 14d
