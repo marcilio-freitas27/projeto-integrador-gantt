@@ -1,6 +1,6 @@
-### Modelo de cronograma de atividades - gantt
+### Cronograma de atividades - gantt
 
-* Conhecendo o mermaid: primeiros passos
+* Projeto integrador I
 
 ```mermaid
 gantt
@@ -16,10 +16,10 @@ gantt
     Tecnologias         :b2, after b1  ,7d
 
     section Documentação
-    Referencial         :c1, after b2, 14d
+    Referencial         :c1, after b2, 28d
 
     section Execução
-    Protótipo           :d1, after c1, 7d
+    Protótipo           :d1, after c1, 14d
     Testes              :d2, after d1, 7d
 
     section Defesa
