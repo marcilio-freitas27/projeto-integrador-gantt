@@ -9,7 +9,7 @@ gantt
 
     section Planejamento
     Tema                :done, a1, 2022-10-24, 7d
-    Definição           :done, a2, after a1, 7
+    Definição           :done, a2, after a1, 7d
 
     section Requisitos
     Problemas           :active, b1, after a2  , 7d
