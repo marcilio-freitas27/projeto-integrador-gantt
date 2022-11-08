@@ -21,7 +21,7 @@ gantt
     Conclusão       :c3, after c2, 14d
 
     section Execução
-    Protótipo           :d1, after c2, 14d
+    Protótipo           :d1, after c3, 14d
     Testes              :d2, after d1, 7d
 
     section Defesa
