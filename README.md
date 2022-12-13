@@ -30,7 +30,7 @@ gantt
 
 ### Diagrama de Componentes - Sistema de Economia de Energia
 
-![imagem](diagrama_componentes_see.PNG)
+![imagem](diagrama_componentes_see.png)
 
 
 
