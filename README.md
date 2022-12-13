@@ -27,3 +27,13 @@ gantt
     section Defesa
     Apresentação        :e1, after d2, 7d
 ```
+
+### Diagrama de Componentes - Sistema de Economia de Energia
+
+![imagem](diagrama_componentes_see.PNG)
+
+
+
+
+
+
