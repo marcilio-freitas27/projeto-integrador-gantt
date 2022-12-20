@@ -32,6 +32,22 @@ gantt
 
 ![imagem](diagrama_componentes_see.png)
 
+### Protótipo no Figma
+
+### Telas
+
+- Tela Inicial
+
+- Login
+
+- Cadastro de usuário
+
+- Dashboard
+
+- Listagem de usuários
+
+- Listagem de despositivos
+
 
 
 
