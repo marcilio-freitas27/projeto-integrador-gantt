@@ -46,7 +46,7 @@ gantt
 
 - Listagem de usuários
 
-- Listagem de despositivos
+- Listagem de dispositivos
 
 
 
