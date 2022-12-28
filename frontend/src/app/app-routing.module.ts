@@ -1,0 +1,19 @@
+import { InicioComponent } from './inicio/inicio.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { CadastrarDispositivosComponent } from './cadastrar-dispositivos/cadastrar-dispositivos.component';
+
+const routes: Routes = [
+  {path: 'inicio', component: InicioComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'cadastro', component: CadastroComponent},
+  {path: 'dispositivos', component: CadastrarDispositivosComponent}
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }

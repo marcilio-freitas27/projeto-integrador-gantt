@@ -1,0 +1,43 @@
+
+
+/* Side Menu */
+
+.side-menu{
+  background-color: rgba(40.00000141561031, 229.00000154972076, 165.00000536441803, 1);
+  position: absolute;
+  width: 273px;
+  height: 922px;
+  left: -3px;
+  top: 102px;
+}
+
+
+/* Top */
+
+.top{
+  background-color:rgba(40.00000141561031, 229.00000154972076, 165.00000536441803, 1);
+  position: absolute;
+  width: 1440px;
+  height: 102px;
+  left: -3px;
+  top: 0px;
+}
+
+
+/* Cadastrar dispositivo */
+
+.cadastrar-dispositivo{
+  position: absolute;
+  width: 1170px;
+  height: 75px;
+  left: 270px;
+  top: 949px;
+  background: #28E5A5;
+}
+
+.texto-see{
+  /* SEE - Sistema de Economia de Energia - @2022 Marcilio Freitas */
+    display: flex;
+    justify-items: center;
+}
+
