@@ -10,6 +10,8 @@ import { ListarDispositivosComponent } from './listar-dispositivos/listar-dispos
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CadastrarDispositivosComponent } from './cadastrar-dispositivos/cadastrar-dispositivos.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { LayoutInicioComponent } from './layout-inicio/layout-inicio.component';
+import { LayoutAcessoComponent } from './layout-acesso/layout-acesso.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UsuarioComponent } from './usuario/usuario.component';
     ListarDispositivosComponent,
     DashboardComponent,
     CadastrarDispositivosComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    LayoutInicioComponent,
+    LayoutAcessoComponent
   ],
   imports: [
     BrowserModule,

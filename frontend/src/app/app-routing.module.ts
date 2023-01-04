@@ -9,6 +9,7 @@ const routes: Routes = [
   {path: 'inicio', component: InicioComponent},
   {path: 'login', component: LoginComponent},
   {path: 'cadastro', component: CadastroComponent},
+  {path: '', redirectTo: '/inicio', pathMatch: 'full'},
   {path: 'dispositivos', component: CadastrarDispositivosComponent}
 ];
 
