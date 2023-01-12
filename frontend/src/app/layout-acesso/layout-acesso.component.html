@@ -1,1 +1,85 @@
-<p>layout-acesso works!</p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid e198_2760">
+        <a class="navbar-brand"><img class="e202_2701"><b> SEE </b></a>
+        <button (click)="close()" class="btn btn-outline-dark space"><</button>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+          </form>
+          <div class="col-2">
+
+          </div>
+          <div class="bells">
+            <i class="material-icons icon">notifications</i>
+          </div>
+      </div>
+    </nav>
+
+    <div class="d-flex">
+    <main id="col-2">
+      <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg" style="width: 250px;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img class="e148_2650">
+          <div class="md-2">
+            <span class="fs-4">&nbsp; User</span>
+            <br>
+            <span class="fs-8">&nbsp; &nbsp; User</span>
+          </div>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column"  tabindex="-1">
+          <li>
+            <a class="nav-link link-dark">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a class="nav-link link-dark active bg-light">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+              Dispositivos
+            </a>
+          </li>
+          <li>
+            <a class="nav-link link-dark">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+              Usuarios
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <div class="my-4 py-5">
+        </div>
+        <div class="my-5 py-5">
+        </div>
+      </div>
+    </main>
+
+    <div class="col container m-5">
+      <router-outlet></router-outlet>
+    </div>
+    </div>
+  </body>
+  <footer class=" fixed-bottom bg">
+    <div class=" b-example-divider"></div>
+  </footer>
+</html>
+
