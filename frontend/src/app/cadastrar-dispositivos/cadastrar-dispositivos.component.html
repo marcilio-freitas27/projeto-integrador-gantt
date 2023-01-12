@@ -9,126 +9,96 @@
       href="https://fonts.googleapis.com/css?family=Bitter&display=swap"
       rel="stylesheet"
     />
-  </head>
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
 
+  </head>
   <body>
-    <div class="e198_2699">
-      <div class="e198_2760"></div>
-      <div class="e198_2761"></div>
-      <div class="e198_2762"></div>
-      <div class="e198_2764">
-        <div class="e148_2724">
-          <div class="e148_2745">
-            <span class="e148_2726">Cadastrar Dispositivo</span>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid e198_2760">
+        <a class="navbar-brand"><img class="e202_2701"><b> SEE </b></a>
+        <button (click)="close()" class="btn btn-outline-dark space"><</button>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+          </form>
+          <div class="col-2">
+
           </div>
-          <div class="e148_2742">
-            <button class="e148_2743">
-              <!-- class="e148_2744" -->
-              <span>Cadastrar</span>
-            </button>
+          <div class="bells">
+            <i class="material-icons icon">notifications</i>
           </div>
-          <!-- <div class="e149_2761"></div> -->
-          <!-- <div class="e149_2769"></div>
-          <div class="e149_2768"></div> -->
-          <input class=" form-control e149_2765 e149_2761" placeholder="Consumo Elétrico">
-          <input class=" form-control e149_2769 e148_2758" placeholder="Consumo Elétrico">
-          <input class=" form-control e149_2768 e148_2752" placeholder="Consumo Elétrico">
-          <!-- <span ">Consumo elétrico</span> -->
-          <!-- <div class="e149_2762">
-            <div class="e149_2763"></div>
-            <div class="e149_2764"></div>
-          </div> -->
-          <!-- <div class="e148_2755">
-            <div class="e148_2756"></div>
-            <div class="e148_2757"></div>
-          </div> -->
-          <!-- <span class="e148_2758">Consumo elétrico</span
-          ><span class="e148_2752">Tempo de utilização</span> -->
-          <!-- <div class="e148_2749">
-            <div class="e148_2750"></div>
-            <div class="e148_2751"></div>
-          </div> -->
-        </div>
-        <span class="e148_2726">Cadastrar Dispositivo</span>
       </div>
-      <div>
-        <!-- <div class="e148_2709"><div class="e148_2710"></div></div> -->
-        <input class="e148_2707" placeholder="Search...">
-      </div>
-      <div class="e148_2649">
-        <div class="e148_2650"></div>
-        <div class="e148_2651">
-          <span class="e148_2652">User</span
-          ><span class="e148_2653">Cliente</span>
-        </div>
-      </div>
-      <div class="e148_2673">
-        <div class="ei148_2673_3174_9357">
-          <div class="ei148_2673_3173_21618">
-            <div class="ei148_2673_3173_21620"></div>
-            <div class="ei148_2673_3173_21621"></div>
-            <div class="ei148_2673_3174_9164"></div>
+    </nav>
+
+    <div class="d-flex">
+    <main id="col-2">
+      <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg" style="width: 250px;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img class="e148_2650">
+          <div class="md-2">
+            <span class="fs-4">&nbsp; User</span>
+            <br>
+            <span class="fs-8">&nbsp; &nbsp; User</span>
           </div>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column"  tabindex="-1">
+          <li>
+            <a class="nav-link link-dark">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a class="nav-link link-dark active bg-light">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+              Dispositivos
+            </a>
+          </li>
+          <li>
+            <a class="nav-link link-dark">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+              Usuarios
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <div class="my-4 py-4">
+        </div>
+        <div class="my-5 py-4">
         </div>
       </div>
-      <div class="e202_2699">
-        <div class="e202_2700"><div class="e202_2701"></div></div>
-      </div>
-      <div class="e202_2702">
-        <div class="e202_2703">
-          <div class="e202_2704"></div>
-          <div class="e202_2705"></div>
-        </div>
-      </div>
-      <span class="e202_2706">SEE</span>
-      <div class="e148_2654">
-        <div class="e148_2655">
-          <div class="e148_2656"></div>
-          <div class="e148_2657">
-            <div class="e148_2658"></div>
-            <div class="e148_2659">
-              <div class="e148_2660">
-                <span class="e148_2661">Dashboard</span>
-                <div class="e148_2662">
-                  <div class="e148_2663"></div>
-                  <div class="e148_2664"></div>
-                  <div class="e148_2665"></div>
-                </div>
+    </main>
+
+    <div class="col container m-5">
+      <!-- <div class="container w-75 align-self-end">
+        <div class="card">
+          <div class="card-header bg">
+            Cadastrar Dispositivos
+          </div>
+          <div class="card-body">
+            <form class="form-inline">
+              <div class="form-group md-2 d-flex">
+                <input type="text" class="mx-2 form-control w-50" id="nome" placeholder="Nome">
+                <input type="text" class="form-control w-50" id="voltagem" placeholder="Tempo de utilização - H">
               </div>
-              <div class="e148_2666">
-                <span class="e148_2667">Meus Dados</span>
-                <div class="e148_2668">
-                  <div class="ei148_2668_111_393">
-                    <div class="ei148_2668_111_394">
-                      <div class="ei148_2668_111_395"></div>
-                      <div class="ei148_2668_111_396"></div>
-                      <div class="ei148_2668_111_397"></div>
-                    </div>
-                    <div class="ei148_2668_111_398"></div>
-                    <div class="ei148_2668_111_399"></div>
-                  </div>
-                </div>
+              <br>
+              <div class="form-group md-2 d-flex">
+                <input type="text" class="mx-2 form-control w-50" id="consumo" placeholder="Consumo - V">
+                <button type="submit" class="bg-2 text-dark btn btn-primary mb-2">Cadastrar</button>
               </div>
-              <button class="e148_2669">
-                <span class="e148_2670">Dispositivos</span>
-                <div class="e148_2671">
-                  <div class="ei148_2671_111_406">
-                    <div class="ei148_2671_111_407">
-                      <div class="ei148_2671_111_408"></div>
-                      <div class="ei148_2671_111_409"></div>
-                      <div class="ei148_2671_111_410"></div>
-                      <div class="ei148_2671_111_411"></div>
-                      <div class="ei148_2671_111_412"></div>
-                      <div class="ei148_2671_111_413"></div>
-                    </div>
-                  </div>
-                </div>
-              </button>
-            </div>
+            </form>
           </div>
         </div>
-        <div class="e148_2672"></div>
-      </div>
+      </div> -->
+      <app-dashboard></app-dashboard>
+    </div>
     </div>
   </body>
+  <footer class=" fixed-bottom bg">
+    <div class=" b-example-divider"></div>
+  </footer>
 </html>
