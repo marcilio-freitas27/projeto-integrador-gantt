@@ -1,7 +1,4 @@
-/* .e139_2687 {
-	overflow:hidden;
-	border:1px solid rgba(251.00000023841858, 201.00000321865082, 142.00000673532486, 1);
-} */
+
 .e139_2687 {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 	background-color:rgba(22.000000588595867, 30.00000011175871, 53.00000064074993, 1);
@@ -12,24 +9,6 @@
   top: 0.25px
 
 }
-/* .e139_2688 {
-	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	width:503px;
-	height:379px;
-	position:absolute;
-	left:788px;
-	top:209px;
-	border-top-left-radius:103px;
-	border-top-right-radius:103px;
-	border-bottom-left-radius:103px;
-	border-bottom-right-radius:103px;
-	background-repeat:no-repeat;
-	background-size:cover;
-} */
-
-/* .e139_2688 {
-	border:1px solid rgba(22.000000588595867, 30.00000011175871, 53.00000064074993, 1);
-} */
 
 .e139_2689 {
 	background-color:rgba(40.00000141561031, 229.00000154972076, 165.00000536441803, 1);
@@ -65,9 +44,6 @@
 	color:rgba(57.00000040233135, 57.00000040233135, 57.00000040233135, 1);
 	width:398px;
 	height:144px;
-	/* position:absolute;
-	left:10px;
-	top:10px; */
 	font-family:Poppins;
 	text-align:left;
 	font-size:32px;
@@ -138,17 +114,9 @@
 .e139_2698 {
 	width:199px;
 	height:59px;
-	position:absolute;
-	left:114px;
-	top:237.5px;
 }
 .e139_2699 {
 	background-color:rgba(250.00000029802322, 201.00000321865082, 143.00000667572021, 1);
-	/* width:199px;
-	height:59px;
-	position:absolute;
-	left:0px;
-	top:0px; */
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
 	border-bottom-left-radius:5px;
@@ -172,17 +140,9 @@
 .e139_2701 {
 	width:199px;
 	height:59px;
-	position:absolute;
-	left:114px;
-	top:316.5px;
 }
 .e139_2702 {
 	background-color:rgba(44.000001177191734, 227.00000166893005, 163.00000548362732, 1);
-	/* width:199px;
-	height:59px;
-	position:absolute;
-	left:0px;
-	top:0px; */
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
 	border-bottom-left-radius:5px;
@@ -211,4 +171,10 @@
 	top:250px;
 	background-image:url("/assets/images/image_1.png");
 	background-repeat:no-repeat;
+}
+
+.card{
+  position:absolute;
+	left:150px;
+	top:170px;
 }
