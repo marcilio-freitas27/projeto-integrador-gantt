@@ -841,9 +841,6 @@ html {
 }
 
 main {
-  height: 100vh;
-  height: -webkit-fill-available;
-  max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -889,4 +886,14 @@ main {
 
 .scrollarea {
   overflow-y: auto;
+}
+
+.full-height{
+	width: 50%;
+  height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgba(40.00000141561031, 229.00000154972076, 165.00000536441803, 1) 0%,
+    rgba(40.00000141561031, 229.00000154972076, 165.00000536441803, 1) 100%
+  )
 }
